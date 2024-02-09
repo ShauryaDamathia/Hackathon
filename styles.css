@@ -1,63 +1,40 @@
-/* Basic CSS Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.navbar {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-}
-
-.nav-links {
-    list-style: none;
-}
-
-.nav-links li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.hero {
-    background-color: #007bff;
-    color: #fff;
+header{
+    background-color: white;
     text-align: center;
-    padding: 100px 0;
-}
+    height: 30px;
+    color: black;
+    font-style:normal ;
+    margin-bottom: 30px;
 
-.btn-primary {
-    background-color: #fff;
-    color: #007bff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
 }
-
-.about, .services, .testimonials, .contact, .footer {
-    padding: 50px 0;
+.forms{
+    padding-left: 10px;
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: rgba(107, 139, 147, 0.5);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+   font-weight: 600;
+   color: black;
+   width: 610px;
+   height: 400px;
+   margin-left: 260px;
+   text-size-adjust: 20px;
+   
+}
+input[type="text"] {
+    outline: none; 
+    background-color: transparent;
+    font-style: normal;
+}
+body{
+    background-image: url('lol.jpeg') ;
+}
+footer{
+    background-color: white;
     text-align: center;
-}
-
-.footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
+    height: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
